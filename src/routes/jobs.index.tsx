@@ -24,7 +24,7 @@ import { clipJob } from "@/lib/jd-clipper";
 import { parseCsv, mapCsvRowToJob } from "@/lib/csv";
 
 export const Route = createFileRoute("/jobs/")({
-  head: () => ({ meta: [{ title: "Jobs — jobs" }] }),
+  head: () => ({ meta: [{ title: "Jobs — Sel me" }] }),
   component: JobsPage,
 });
 

@@ -9,7 +9,7 @@ import { Calendar, Download } from "lucide-react";
 const { saveAs } = FileSaver;
 
 export const Route = createFileRoute("/calendar")({
-  head: () => ({ meta: [{ title: "Calendar — jobs" }] }),
+  head: () => ({ meta: [{ title: "Calendar — Sel me" }] }),
   component: CalendarPage,
 });
 

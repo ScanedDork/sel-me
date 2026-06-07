@@ -5,7 +5,7 @@ import { JOB_STATUSES } from "@/lib/types";
 import { useMemo } from "react";
 
 export const Route = createFileRoute("/analytics")({
-  head: () => ({ meta: [{ title: "Pipeline — jobs" }] }),
+  head: () => ({ meta: [{ title: "Pipeline — Sel me" }] }),
   component: AnalyticsPage,
 });
 

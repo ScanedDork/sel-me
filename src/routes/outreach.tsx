@@ -11,7 +11,7 @@ import { toast } from "sonner";
 import type { OutreachTemplate } from "@/lib/types";
 
 export const Route = createFileRoute("/outreach")({
-  head: () => ({ meta: [{ title: "Outreach — jobs" }] }),
+  head: () => ({ meta: [{ title: "Outreach — Sel me" }] }),
   component: OutreachPage,
 });
 

@@ -23,7 +23,7 @@ import { chatComplete } from "@/lib/ai-providers";
 const { saveAs } = FileSaver;
 
 export const Route = createFileRoute("/jobs/$jobId")({
-  head: () => ({ meta: [{ title: "Job — jobs" }] }),
+  head: () => ({ meta: [{ title: "Job — Sel me" }] }),
   component: JobDetail,
 });
 

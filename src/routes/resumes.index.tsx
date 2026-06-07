@@ -9,7 +9,7 @@ import { parseResumeDocx } from "@/lib/resume-parser";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/resumes/")({
-  head: () => ({ meta: [{ title: "Resumes — jobs" }] }),
+  head: () => ({ meta: [{ title: "Resumes — Sel me" }] }),
   component: ResumesPage,
 });
 

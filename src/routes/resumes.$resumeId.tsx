@@ -15,7 +15,7 @@ import { exportEditedDocx, exportEditedPdf } from "@/lib/docx-export";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/resumes/$resumeId")({
-  head: () => ({ meta: [{ title: "Edit resume — jobs" }] }),
+  head: () => ({ meta: [{ title: "Edit resume — Sel me" }] }),
   component: ResumeEditor,
 });
 

@@ -9,7 +9,7 @@ import { Plus, Trash2, ExternalLink } from "lucide-react";
 import { useState } from "react";
 
 export const Route = createFileRoute("/prep")({
-  head: () => ({ meta: [{ title: "Prep — jobs" }] }),
+  head: () => ({ meta: [{ title: "Prep — Sel me" }] }),
   component: PrepPage,
 });
 

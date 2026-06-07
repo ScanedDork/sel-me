@@ -16,7 +16,7 @@ import { loadStorageConfig, saveStorageConfig, type StorageMode } from "@/lib/st
 const { saveAs } = FileSaver;
 
 export const Route = createFileRoute("/settings")({
-  head: () => ({ meta: [{ title: "Settings — jobs" }] }),
+  head: () => ({ meta: [{ title: "Settings — Sel me" }] }),
   component: SettingsPage,
 });
 
@@ -107,7 +107,7 @@ function About() {
     <section className="glass rounded-2xl p-5 space-y-3">
       <h2 className="font-semibold">About</h2>
       <p className="text-sm text-muted-foreground">
-        <span className="font-medium text-foreground">jobs</span> is free, open source, and MIT licensed. Run it locally,
+        <span className="font-medium text-foreground">Sel me</span> is free, open source, and MIT licensed. Run it locally,
         self-host it, or fork it — your data never leaves the destinations you configure.
       </p>
       <div className="flex flex-wrap items-center gap-3 text-sm">
